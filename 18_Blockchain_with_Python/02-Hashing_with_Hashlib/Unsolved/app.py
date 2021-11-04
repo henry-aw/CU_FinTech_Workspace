@@ -99,6 +99,8 @@ if st.button("Hash Text"):
 # 2. Run the Streamlit app in the terminal by using `streamlit run app.py`.
 # 3. Navigate to [Lorem Ipsum](https://www.lipsum.com/), generate some lorem ipsum, and then paste the generated text.
 # 4. Hash the encoded data by clicking the Hash Text button. Make a note of the unique fingerprint for the data.
+    # 3fe8355875acbd8873ff1f351b051e6f3803d55a993d367c5ae869f04524dcc3
 # 5 Change one word of the input text in the text box. Then hash the text again to find out how the hash changes as the input changes.
+    # f4f8e6bc7156f8c0502820ed011d76d172b0ef0e32765cdfee6bdebcf6d8ac61
 
 ################################################################################
