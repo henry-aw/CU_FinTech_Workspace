@@ -91,6 +91,7 @@ if st.button("Add Block"):
     # Use the `st.write` function to display the new block.
     st.write(new_block)
 
+
 ################################################################################
 # Step 4:
 # Test the Application
