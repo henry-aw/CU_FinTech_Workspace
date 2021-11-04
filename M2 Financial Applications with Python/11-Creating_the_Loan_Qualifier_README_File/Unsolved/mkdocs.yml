@@ -1,0 +1,6 @@
+site_name: Project Documentation Server
+theme: material
+nav:
+    - 'index.md'
+    - 'about.md'
+    - 'functions.md'
