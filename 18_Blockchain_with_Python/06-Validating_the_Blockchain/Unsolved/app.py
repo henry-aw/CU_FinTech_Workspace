@@ -127,7 +127,7 @@ st.write(pychain_df)
 
 # @TODO:
 # Add a button with the text “Validate Blockchain” to your Streamlit interface.
-# YOUR CODE HERE
+if st.button("Validate Blockchain"):
 
 # Step 2:
 # Code the Validate Blockchain button so that when it’s clicked, it calls
@@ -137,7 +137,7 @@ st.write(pychain_df)
 # @TODO:
 # Call the `is_valid` method of the `PyChain` data class and `write` the
 # result to the Streamlit interface
-# YOUR CODE HERE
+    st.write(pychain.is_valid())
 
 ################################################################################
 # Step 3:

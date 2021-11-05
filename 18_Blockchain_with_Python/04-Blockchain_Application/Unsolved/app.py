@@ -101,19 +101,19 @@ if st.button("Add Block"):
 
     # @TODO:
     # Select the previous block in the chain
-    # YOUR CODE HERE!
+    prev_block = pychain.chain[-1]
 
     # @TODO:
     # Hash the previous block in the chain
-    # YOUR CODE HERE!
+    prev_block_hash = prev_block.hash_block()
 
     # @TODO:
     # Create a new block in the chain
-    # YOUR CODE HERE!
+    new_block = Block(data=input_data, creator_id=42, prev_hash=prev_block_hash)
 
     # @TODO:
     # Add the new block to the chain
-    # YOUR CODE HERE!
+    pychain.add_block(new_block)
 
     ################################################################################
     # Step 3:
@@ -127,11 +127,11 @@ st.markdown("## PyChain Ledger")
 
 # @TODO:
 # Create a Pandas DataFrame to display the `PyChain` ledger
-pychain_df =  # YOUR CODE HERE!
+pychain_df =  pd.DataFrame(pychain.chain)
 
 # @TODO:
 # Use the Streamlit `write` function to display the `PyChain` DataFrame
-# YOUR CODE HERE!
+st.write(pychain_df)
 
 ################################################################################
 # Step 4:
